@@ -7,3 +7,7 @@ Install using `npm install`.
 Run using `node index.js`.
 
 You should be able to navigate to http://localhost:3000/ and see "Hello World!" in your web browser.
+
+## Continuous Integration
+
+This project was created purely to test continuous integration using Github Actions.
