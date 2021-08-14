@@ -2,6 +2,8 @@
 
 Use node 14.16.0 by running `nvm use 14.16.0`. If there's an error, follow the output instructions, or search online.
 
+Checkout the repo if needed: `git clone git@github.com:fullStackOasis/expressjs-demo-mongodb.git`
+
 Install using `npm install`.
 
 Run using `node index.js`.
