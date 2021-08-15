@@ -18,6 +18,28 @@ Run using `node index.js`.
 
 You should be able to navigate to http://localhost:3000/ and see "Hello World!" in your web browser.
 
+## Example POST
+
+```
+curl -vs --header "Content-Type: application/json" \
+  --request POST --data \
+  '{"user" : {"email":"tester@example.com","username":"testuser"} }' \
+  http://localhost:3000/api/users
+```
+
+Example failure output:
+
+```
+{"success":false,"error":"This email address has already been registered"}
+```
+
+Successful output:
+
+```
+{"success":true,
+ "user":{"_id":"6118622c772a7f9ed9dbc1ab","email":"tester3@example.com","username":"testuser","__v":0}}
+```
+
 ## Continuous Integration
 
 This project was created purely to test continuous integration using Github Actions.
