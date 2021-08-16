@@ -2,6 +2,19 @@
 
 This project is maintained by fullStackOasis at [Github](https://github.com/fullStackOasis/expressjs-demo-mongodb)
 
+Instructions for use:
+
+Checkout the repo if needed: `git clone git@github.com:fullStackOasis/expressjs-demo-mongodb.git`
+
+Install using `npm install`.
+
+To run tests, on the command line, run the following commands:
+
+```
+nvm use 14.16.0
+npm test
+```
+
 ## Mongodb
 
 You must have Mongodb installed and running in order for this demo to work. [Instructions for installing Mongodb on Ubuntu are here.](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
