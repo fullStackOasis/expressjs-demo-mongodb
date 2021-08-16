@@ -4,14 +4,25 @@
   "description": "simple express demo",
   "main": "index.js",
   "scripts": {
-    "test": "jest --testPathPattern --coverage"
+    "test": "jest --testPathPattern --coverage",
+    "test:coverage": "jest --testPathPattern --coverage",
+    "test:badges": "npm run test:coverage  && jest-coverage-badges"
   },
   "author": "fullStackOasis",
   "license": "MIT",
   "dependencies": {
     "express": "^4.17.1",
     "jest": "^27.0.6",
+    "jest-coverage-badges": "^1.1.2",
+    "make-coverage-badge": "^1.2.0",
     "mongoose": "^5.13.7",
     "supertest": "^6.1.5"
+  },
+  "jest": {
+    "coverageReporters": [
+      "json-summary",
+      "text",
+      "lcov"
+    ]
   }
 }

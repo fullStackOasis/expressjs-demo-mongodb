@@ -44,6 +44,6 @@ jobs:
         run: npm install
 
       - name: Run npm test
-        run: npm test
+        run: npm run test:badges
         env:
           CI: true
