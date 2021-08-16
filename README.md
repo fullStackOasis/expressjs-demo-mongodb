@@ -1,5 +1,7 @@
 # Simple Expressjs Demo
 
+This project is maintained by fullStackOasis at [Github](https://github.com/fullStackOasis/expressjs-demo-mongodb)
+
 ## Mongodb
 
 You must have Mongodb installed and running in order for this demo to work. [Instructions for installing Mongodb on Ubuntu are here.](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/)
