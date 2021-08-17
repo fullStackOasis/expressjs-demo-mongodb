@@ -1,6 +1,6 @@
 # Simple Expressjs Demo
 
-![CI workflow](https://github.com/fullStackOasis/expressjs-demo-mongodb/actions/workflows/main.yml/badge.svg)
+![CI workflow](https://github.com/fullStackOasis/expressjs-demo-mongodb/actions/workflows/main.yml/badge.svg) [![codecov](https://codecov.io/gh/fullStackOasis/expressjs-demo-mongodb/branch/main/graph/badge.svg)](https://codecov.io/gh/fullStackOasis/expressjs-demo-mongodb)
 
 This project is maintained by fullStackOasis at [Github](https://github.com/fullStackOasis/expressjs-demo-mongodb)
 
